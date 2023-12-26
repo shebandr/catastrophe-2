@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>310</y>
+      <width>301</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="main_menu_buttons">
+     <item>
+      <widget class="QPushButton" name="main_menu_button">
+       <property name="text">
+        <string>Продолжить</string>
+       </property>
+       <property name="shortcut">
+        <string>Space</string>
+       </property>
+       <property name="main_menu" stdset="0">
+        <string>true</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="main_menu_button_7">
+       <property name="text">
+        <string>Загрузить игру</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="main_menu_button_2">
+       <property name="text">
+        <string>Новая игра</string>
+       </property>
+       <property name="shortcut">
+        <string>Space</string>
+       </property>
+       <property name="main_menu" stdset="0">
+        <string>true</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="main_menu_button_4">
+       <property name="text">
+        <string>Вики</string>
+       </property>
+       <property name="shortcut">
+        <string>Space</string>
+       </property>
+       <property name="main_menu" stdset="0">
+        <string>true</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="main_menu_button_5">
+       <property name="text">
+        <string>Титры</string>
+       </property>
+       <property name="shortcut">
+        <string>Space</string>
+       </property>
+       <property name="main_menu" stdset="0">
+        <string>true</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="main_menu_button_6">
+       <property name="text">
+        <string>Выход</string>
+       </property>
+       <property name="shortcut">
+        <string>Space</string>
+       </property>
+       <property name="main_menu" stdset="0">
+        <string>true</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="LOGO">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>731</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CATASTROPHE</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>load_game_window</class>
+ <widget class="QWidget" name="load_game_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="close_button">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>325</y>
+     <width>300</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ВЕРНУТЬСЯ В МЕНЮ</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="crutch">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>60</y>
+     <width>751</width>
+     <height>971</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="saves_table">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>60</y>
+     <width>800</width>
+     <height>900</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QFrame" name="crutch_2">
+   <property name="geometry">
+    <rect>
+     <x>1530</x>
+     <y>60</y>
+     <width>471</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>crutch</zorder>
+  <zorder>close_button</zorder>
+  <zorder>saves_table</zorder>
+  <zorder>crutch_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

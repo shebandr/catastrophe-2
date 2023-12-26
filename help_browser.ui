@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>help_browser</class>
+ <widget class="QWidget" name="help_browser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextBrowser" name="text_browser">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>60</y>
+     <width>800</width>
+     <height>900</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close_button">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>325</y>
+     <width>300</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Вернуться в меню</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="crutch">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>731</width>
+     <height>951</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="crutch_2">
+   <property name="geometry">
+    <rect>
+     <x>1530</x>
+     <y>60</y>
+     <width>471</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>crutch</zorder>
+  <zorder>text_browser</zorder>
+  <zorder>close_button</zorder>
+  <zorder>crutch_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

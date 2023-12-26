@@ -1,0 +1,16 @@
+.main_menu_button{
+    background-color: #000000;
+    border: 5px #DD7A23 solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.QMainWindow{
+    background-color: #1c1c1c;
+}
+
+.main_menu_block{
+    background-color: #0f0f0f;
+    border: 5px #DD7A23 solid;
+    border-radius: 5px;
+}
