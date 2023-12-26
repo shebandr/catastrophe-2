@@ -1,11 +1,22 @@
-.main_menu_button{
+* {
+    color: #FFECCC;
+    font-size: 30px;
+}
+QPushButton#main_menu_button{
     background-color: #000000;
-    border: 5px #DD7A23 solid;
+    border: 5px solid #DD7A23 ;
     border-radius: 5px;
     text-align: center;
-}
+    width: 300px;
+    height: 70px;
+    font-size: 30px
 
-.QMainWindow{
+}
+QLabel#LOGO{
+    font-size: 100px;
+
+}
+QMainWindow{
     background-color: #1c1c1c;
 }
 
@@ -13,4 +24,40 @@
     background-color: #0f0f0f;
     border: 5px #DD7A23 solid;
     border-radius: 5px;
+    width: 1200px;
+    height: 900px;
+}
+
+QFrame#crutch {
+    background-color: rgba(28, 28, 28, 150);
+}
+
+QListWidget {
+    background-color: rgba(28, 28, 28, 150);
+    border: 5px solid #DD7A23 ;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+QLabel#value_data{
+
+    height:50px;
+
+}
+
+QTextEdit#save_text_edit{
+    background-color: #000000;
+    border: 5px solid #DD7A23 ;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    font-size: 30px
+
+}
+
+
+QGraphicsView{
+border: 5px solid #DD7A23 ;
+border-radius: 5px;
 }
